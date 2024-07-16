@@ -4,13 +4,9 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Category</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="AddOrEdit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="mb-3">
                 <div class='e-btn-group custom-rbt-group'>
@@ -31,9 +27,7 @@
             </div>
             
                 
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+            <ejs-button id="submit" typeof="submit" content="Submit" cssClass="e-success"></ejs-button>
         </form>
     </div>
 </div>
