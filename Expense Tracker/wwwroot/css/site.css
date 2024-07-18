@@ -26,6 +26,11 @@ body {
 .e-bigger {
     font-size: x-large;
 }
+/*Breadcumb*/
+.e-breadcrumb a, .e-breadcrumb a:hover{
+    text-decoration:none !important;
+    color:inherit !important;
+}
 
 /*Button*/
 .btn:focus, .btn:active{
