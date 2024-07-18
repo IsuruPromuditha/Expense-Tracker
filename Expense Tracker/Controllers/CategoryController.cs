@@ -22,6 +22,7 @@ namespace Expense_Tracker.Controllers
         public async Task<IActionResult> Index()
         {
             return View(await _context.Categories.ToListAsync());
+
         }
 
         
