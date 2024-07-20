@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["isDashboard"] = true;
+}
+
+@*Summery Widgets*@
+<div class="row mb-4">
+    <div class="d-flex flex-row widget summery income">
+        <div class="d-flex flex-column justify-content-center p-5">
+            <i class="fa-solid fa-dollar-sign fa-2xl"></i>
+        </div>
+        <div class="d-flex flex-column m-auto py-3">
+            <span class="lead">Total Income</span>
+            <h1 class="display-6 fw-bold">@ViewBag.TotalIncome</h1>
+        </div>
+    </div>
+</div>
